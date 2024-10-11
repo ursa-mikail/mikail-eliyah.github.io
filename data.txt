@@ -13,7 +13,7 @@ A snapshot of my professional journey:
 ## My Expertise
 
 ### Core Skills
-- **System**: Cryptography, Adaptive Machines
-- **Software Development**: Rust, Python, Matlab
+- System: Cryptography, Adaptive Machines
+- Software Development: Rust, Python, Matlab
 
 
