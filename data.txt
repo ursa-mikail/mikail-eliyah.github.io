@@ -1,0 +1,19 @@
+# Mikail's Portfolio
+
+Welcome to my personal portfolio! I'm Mikail, a scientist and engineer with a diverse background in unmanned systems, machine learning, system design, software architecture, biomedical and product development. We have a team to create resilient systems and AI safety solutions.
+
+## About Me
+
+A snapshot of my professional journey:
+
+- **Engineer**: Extensive experience in leading cross-functional teams.
+- **Machine Learning Researcher**: Developed and implemented ML models for various applications.
+- **System Architect**: Designed and developed core unmanned systems and platforms.
+
+## My Expertise
+
+### Core Skills
+- **System**: Cryptography, Adaptive Machines
+- **Software Development**: Rust, Python, Matlab
+
+
