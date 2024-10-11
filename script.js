@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     content += `<h1>${line.substring(2)}</h1>`;
                 } else if (line.startsWith('## ')) {
                     content += `<h2>${line.substring(3)}</h2>`;
+                } else if (line.startsWith('### ')) {
+                    content += `<h3>${line.substring(4)}</h3>`;
                 } else if (line.startsWith('- ')) {
                     content += `<li>${line.substring(2)}</li>`;
                 } else {
