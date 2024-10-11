@@ -1,10 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
     fetch("data.txt")
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.text();
+        })
         .then(data => {
             const lines = data.split('\n');
             let content = '';
             lines.forEach(line => {
+                // Handle bold text
+                line = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'); // Replace **text** with <strong>text</strong>
+
                 if (line.startsWith('# ')) {
                     content += `<h1>${line.substring(2)}</h1>`;
                 } else if (line.startsWith('## ')) {
